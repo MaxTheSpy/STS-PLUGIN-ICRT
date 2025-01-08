@@ -1,1 +1,1 @@
-# Illegal Character Replacement
+# STS-PLUGIN-ICRT
