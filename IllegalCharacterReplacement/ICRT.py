@@ -8,7 +8,7 @@ class IllegalCharacterReplacementTool(QtWidgets.QWidget):
         # Correct path to UI file
         script_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
         plugin_dir = os.path.join(script_dir, "plugins", "IllegalCharacterReplacement")
-        ui_path = os.path.join(plugin_dir, "icrt_ui.ui")
+        ui_path = os.path.join(plugin_dir, "ICRT.ui")
         uic.loadUi(ui_path, self)
 
         # Make sure the checkbox exists with the correct name
